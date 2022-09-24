@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+.navbar {
+    width: 100%;
+    float: left;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(36, 207, 150);
+    background-color: rgb(35, 35, 35);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.image-portada {
+    text-align: center;
+    background-image: url("image/Portada.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.title-principal{
+    padding-top: 400px;
+    padding-bottom: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    font-size: 25px;
+}
+
+.btn{
+    padding-top: 300px;
+    background-color: rgb(35, 35, 35);
+    padding: 20px;
+    border-radius: 30px;
+
+}
+
+.title-principal .btn{
+    padding: 50px;
+}
+
+/* sobremi*/
+
+.sobremi{
+    padding-top: 40px;
+}
+
+
+.sobremi-text{
+    padding: 50px 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.titulosprincipales{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.yo{
+    width: 300px;
+    border-radius: 600px;
+    display: flex;
+}
+
+.sobremi-textp{
+    padding-left: 40px;
+
+}
+
+/* estudios*/
+
+.estudios-ul{
+    width: 100%;
+    float: left;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.estudios-li{
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.estudios-img{
+    width: 200px;
+    border-radius: 200px;
+    float: left;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* portafolio*/
+.proyectos-ul{
+    width: 100%;
+    float: left;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.proyectos-li{
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.proyectos-img{
+    width: 400px;
+    float: left;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*contacto*/
+.contacto {
+    background-color: pink;
+    padding: 100px ;
+    display: flex;
+}
+
+.titulosprincipales-cont{
+    padding: 50px 50px 50px 50px;
+    color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.p2{
+    color: #fff;
+    background-color: palevioletred;
+    padding: 20px;
+    margin: 50px;
+    display: flex;
+}
+
+/*Footer*/
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
